@@ -1,0 +1,148 @@
+body {	
+	background-color:#fff;
+}
+
+.background-hack {
+    z-index                 : -1;
+    background-image: url(../images/sample1.jpg);
+    background-repeat       : no-repeat;
+	background-position: top center;
+    background-size         : ;
+    position                : fixed;
+    top                     : 0;
+    left                    : 0;
+    right                   : 0;
+    bottom                  : 0;
+    height:                 : 1179px;
+}
+
+
+
+/* General Slides */ 
+.slide			{ width:100%; position: relative; padding:60px 0 60px 0; }
+.slide-nomargin	{ width:100%; position: relative; padding:0; }
+
+.enjoy1 { width:300px; text-align:center; position:absolute; z-index:20; left:50%; top:335px; margin-left:-150px; }
+.enjoy2 { width:300px; text-align:center; position:absolute; z-index:20; left:50%; top:100px; margin-left:-150px; }
+.enjoy3 { width:300px; text-align:center; position:absolute; z-index:20; left:50%; top:10px; margin-left:-150px; }
+
+
+/* Slide 1 TOP*/ 
+#slide1		{ height:480px;}
+
+/* Slide 2 PickUp */ 
+#slide2			{ background-color: rgb(255,255,255); color:#000;}
+#slide2 h2		{ font-size: 1.8em; background-image: url(../images/bg-midashi.png); background-repeat:no-repeat; background-position:top center; padding-top:30px; margin-bottom:10px; text-align:center; letter-spacing:2px;}
+#slide2 h3		{ font-size: 1.6em; }
+#slide2 h4		{ font-size: 1.2em; letter-spacing:1px;}
+#slide2 p		{ font-size: 1.2em; line-height:180%; }
+
+.fbWrap{
+background-color: #ccc;
+position: relative;
+height: 240px;
+width: 100%;
+z-index:0;
+}
+
+.fbWrap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index:0;
+}
+
+.likebox_wrap { margin-top:40px; padding-top:10px; border-top:1px #ccc solid; }
+/* Facebook Like Box width: 100% */
+.fbcomments,
+.fb_iframe_widget,
+.fb_iframe_widget[style],
+.fb_iframe_widget iframe[style],
+.fbcomments iframe[style],
+.fb_iframe_widget span{
+    width: 100% !important;
+}
+
+#slide2 ul 				{ font-size: 1.2em; text-align:left; margin-top:20px;}
+#slide2 ul li 			{ margin:0 0 10px 0; padding:0px 0 0 0px; line-height:18px; }
+#slide2 ul li a:link	{ cursor:pointer; color: #000; border-bottom: 1px dotted #000; }
+#slide2 ul li a:visited	{ cursor:pointer; color: #000; border-bottom: 1px dotted #000; }
+#slide2 ul li a:hover	{ cursor:pointer; color: #000; border-bottom: none;  background-color:#fffa96; }
+
+.plan-sec img { border:1px solid #ccc; padding:4.7%; width:90%; }
+
+#slide2 p a:link 	{ color: #000; border-bottom: 1px dotted #000; }
+#slide2 p a:visited { color: #000; border-bottom: 1px dotted #000; }
+#slide2 p a:hover  	{ color: #000; border-bottom: none;  background-color:#fffa96; }
+
+#slide2 a.nodeco:link { border-bottom: 0px !important; background-color:transparent;}
+
+
+/* Slide 3 enjoy */ 
+
+#slide3{ height:300px;}
+
+	
+/* Slide 4 News */
+
+#slide4		{ background-color: rgb(255,255,255); color:#000; }
+#slide4 h2		{ font-size: 1.8em; padding-top:30px; margin-bottom:0px; letter-spacing:2px; text-align:center}
+#slide4 #plan   { margin-top: -70px; padding-top: 70px;}
+#slide4 #flow   { margin-top: -70px; padding-top: 70px;}
+#slide4 h3		{ font-size: 1.6em; }
+#slide4 h4      { font-size: 2em; text-align: center;}
+#slide4 ul 				{ font-size: 1.2em; text-align:left; margin-top:10px;}
+#slide4 ul li 			{ margin:0 0 10px 0; padding:0px 0 0 0px; line-height:180%;  }
+#slide4 ul li a:link	{ cursor:pointer; color: #000; border-bottom: 1px dotted #000; }
+#slide4 ul li a:visited	{ cursor:pointer; color: #000; border-bottom: 1px dotted #000; }
+#slide4 ul li a:hover	{ cursor:pointer; color: #000; border-bottom: none; background-color:#fffa96; }
+
+.stepCircle     { font-size: 2em; text-align: center; background-color: #ccc; height: 120px; width: 120px; line-height: 120px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; border-radius: 50%; margin:20px auto;}
+.sec-tv			{ font-size: 1.4em; background-image: url(../images/icon-tv.png); background-repeat:no-repeat; padding-left:40px; height:32px; padding-top:6px;}
+.sec-radio		{ font-size: 1.4em; background-image: url(../images/icon-radio.png); background-repeat:no-repeat; padding-left:40px; height:32px; padding-top:6px; }
+.sec-magazine	{ font-size: 1.4em; background-image: url(../images/icon-magazine.png); background-repeat:no-repeat; padding-left:40px; height:32px; padding-top:6px; }
+.sec-other		{ font-size: 1.4em; background-image: url(../images/icon-other.png); background-repeat:no-repeat; padding-left:40px; height:32px; padding-top:6px; }
+
+#slide4 p a:link 	{ }
+#slide4 p a:visited { }
+#slide4 p a:hover  	{ }
+
+/* Slide 5 Menu */ 
+
+#slide5{ height:300px;}
+
+/* Slide 6 */ 
+
+#slide6			{ background-color: rgb(255,255,255); color:#000;}
+#slide6 h2		{ font-size: 1.8em; padding-top:25px; letter-spacing:2px; text-align:center;}
+#slide6 #faq    { margin-top: -70px; padding-top: 70px;}
+#slide6 #about  { margin-top: -70px; padding-top: 70px;}
+#slide6 h3		{ font-size: 1.8em; display: inline-block; text-align: center; padding-bottom: 3px; border-bottom: 3px solid #545454; margin-top: 10px;}
+#slide6 h4		{ font-size: 1.6em; text-align: left; letter-spacing: normal; background-color: #ccc; margin-top: 20px; padding: 10px; border-radius: 5px; webkit-border-radius: 5px; -moz-border-radius: 5px;}
+#slide6 h5      { font-size: 1.6em; text-align: left; letter-spacing: normal; border-bottom: 5px solid #ccc; padding-bottom: 3px; display: inline-block; margin-top: 0; margin-bottom: 0; margin-left: 9px;}
+#slide6 p 		{ font-size: 1.2em; line-height:180%; text-align: left; padding-left: 10px; margin: 15px 0;}
+
+#slide6 .access_name     { text-align: left; display: inline-block; background-color: #fff; padding: 0 0 3px; border-bottom: 3px solid #ddd; border-radius: 0;}
+.aboutCircle     { text-align:center; height: 200px; width: 200px; line-height: 200px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; border-radius: 50%; margin:20px auto;}
+.aboutTxt        { font-size: 1.2em; margin-left: 30px;}
+
+#facebook 		{ width:100%; height: auto; margin-top:10px; }
+#facebook img	{ width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;}
+
+#shopping p a:link 		{ color: #000; border-bottom: 1px dotted #000; }
+#shopping p a:visited 	{ color: #000; border-bottom: 1px dotted #000; }
+#shopping p a:hover		{ color: #000; border-bottom: none; background-color:#fffa96;}
+
+#shopping p a.nodeco:link { border-bottom: 0px !important; background-color:transparent; }
+
+/* Slide 7 enjoy */ 
+
+#slide7{
+	background-image: url(../images/bg-top-fin.jpg);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-attachment:fixed;
+	height:500px;
+}
