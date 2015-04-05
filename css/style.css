@@ -67,8 +67,8 @@ audio:not([controls]) {
 html {
     font-size: 62.5%; /* 1 */
     -ms-text-size-adjust: 62.5%; /* 2 */
-	-webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none;
-
+	  -webkit-font-smoothing: antialiased; 
+    -webkit-text-size-adjust: none;
 }
 
 /*
@@ -88,7 +88,7 @@ textarea {
  */
 
 body {
-    margin: 0;
+  margin: 0;
 	font-weight:normal;
 	color:#333333;
 }
@@ -130,40 +130,9 @@ a:active {
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
 
-h1 {
-    margin: 0;
-}
-
-h2 {
-    margin: 0;
-}
-
-h3 {
-    margin: 0;
-}
-
-h4 {
-    margin: 0;
-}
-
-h5 {
-    margin: 1.67em 0;
-}
-
-h6 {
-    margin: 2.33em 0;
-}
-
 h1,h2,h3,h4,h5,h6 {
-	font-weight:normal;
-}
-
-/*
- * Addresses styling not present in IE7/8/9, S5, Chrome
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
+	font-weight: normal;
+  margin: 0;
 }
 
 /*
@@ -180,23 +149,6 @@ blockquote {
 }
 
 /*
- * Addresses styling not present in S5, Chrome
- */
-
-dfn {
-    font-style: italic;
-}
-
-/*
- * Addresses styling not present in IE6/7/8/9
- */
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
-/*
  * Addresses margins set differently in IE6/7
  */
 
@@ -205,72 +157,8 @@ pre {
     margin: 0.4em 0;
 }
 
-/*
- * Corrects font family set oddly in IE6, S4/5, Chrome
- * en.wikipedia.org/wiki/User:Davidgothberg/Test59
- */
-
-pre,
-code,
-kbd,
-samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
-    font-size: 1em;
-}
-
-/*
- * Improves readability of pre-formatted text in all browsers
- */
-
-pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-
-/*
- * 1. Addresses CSS quotes not supported in IE6/7
- * 2. Addresses quote property not supported in S4
- */
-
-/* 1 */
-
-q {
-    quotes: none;
-}
-
-/* 2 */
-
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
 small {
     font-size: 75%;
-}
-
-/*
- * Prevents sub and sup affecting line-height in all browsers
- * gist.github.com/413930
- */
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -0.5em;
-}
-
-sub {
-    bottom: -0.25em;
 }
 
 
@@ -361,29 +249,6 @@ figure {
 
 form {
     margin: 0;
-}
-
-/*
- * Define consistent border, margin, and padding
- */
-
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-
-/*
- * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3
- * 3. Corrects alignment displayed oddly in IE6/7
- */
-
-legend {
-    border: 0; /* 1 */
-    padding: 0;
-    white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
 }
 
 /*
@@ -529,25 +394,6 @@ caption {
 
 .table td {
   border-top: none;
-}
-
-.cleanline td {
-  border-top: 0;
-}
-
-.bordered {
-  border-width: 1px 0 1px 1px;
-  border-style: solid;
-}
-
-.bordered th,
-.bordered td {
-  border-right: 1px solid;
-}
-
-.striped tbody tr:nth-child(odd) td,
-.striped tbody tr:nth-child(odd) th {
-  background: transparent;
 }
 
 
@@ -702,18 +548,6 @@ h6 {}
 
 .grid_6_disco 						{ width:480px; overflow:hidden; float:left; display:inline; }
 .grid_jacket						{ width:288px; overflow:hidden; float:left; display:inline; margin-right:16px; margin-bottom:20px;}
-	
-.offset_1							{ margin-left:96px; }
-.offset_2							{ margin-left:176px; }
-.offset_3 							{ margin-left:256px; }
-.offset_4 							{ margin-left:336px; }
-.offset_5 							{ margin-left:416px; }
-.offset_6 							{ margin-left:496px; }
-.offset_7 							{ margin-left:576px; }
-.offset_8 							{ margin-left:656px; }
-.offset_9							{ margin-left:736px; }
-.offset_10							{ margin-left:816px; }
-.offset_11							{ margin-left:896px; }
 
 .show-phone 						{ display:none !important; }
 .show-tablet 						{ display:none !important; }
@@ -765,18 +599,6 @@ h6 {}
 .grid_6_disco 						{ width:600px; overflow:hidden; float:left; display:inline; }
 .grid_jacket						{ width:360px; overflow:hidden; float:left; display:inline; margin-right:20px; margin-bottom:20px;}
 
-.offset_1							{ margin-left:120px; }
-.offset_2							{ margin-left:220px; }
-.offset_3 							{ margin-left:320px; }
-.offset_4 							{ margin-left:420px; }
-.offset_5 							{ margin-left:520px; }
-.offset_6 							{ margin-left:620px; }
-.offset_7 							{ margin-left:720px; }
-.offset_8 							{ margin-left:820px; }
-.offset_9							{ margin-left:920px; }
-.offset_10							{ margin-left:1020px; }
-.offset_11							{ margin-left:1120px; }
-
 .show-phone 						{ display:none !important; }
 .show-tablet 						{ display:none !important; }
 .show-screen						{ display:inherit; }
@@ -820,19 +642,6 @@ h6 {}
 
 .grid_6_disco 						{ width:384px; overflow:hidden; float:left; display:inline; }
 .grid_jacket						{ width:228px; overflow:hidden; float:left; display:inline; margin-right:14px; margin-bottom:20px;}
-
-		
-.offset_1							{ margin-left:78px; }
-.offset_2							{ margin-left:142px; }
-.offset_3 							{ margin-left:206px; }
-.offset_4 							{ margin-left:270px; }
-.offset_5 							{ margin-left:334px; }
-.offset_6 							{ margin-left:398px; }
-.offset_7 							{ margin-left:462px; }
-.offset_8 							{ margin-left:526px; }
-.offset_9							{ margin-left:590px; }
-.offset_10							{ margin-left:654px; }
-.offset_11							{ margin-left:718px; }
 	
 .show-phone 						{ display:none !important; }
 .show-tablet 						{ display:inherit !important; }
