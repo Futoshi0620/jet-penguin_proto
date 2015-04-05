@@ -121,7 +121,7 @@ z-index:0;
 #slide6 #about  { margin-top: -70px; padding-top: 70px;}
 #slide6 h3		{ font-size: 1.8em; display: inline-block; text-align: center; padding-bottom: 3px; border-bottom: 3px solid #545454; margin-top: 10px;}
 #slide6 h4		{ font-size: 1.6em; text-align: left; letter-spacing: normal; background-color: #ccc; margin-top: 20px; padding: 10px; border-radius: 5px; webkit-border-radius: 5px; -moz-border-radius: 5px;}
-#slide6 h5      { font-size: 1.6em; text-align: left; letter-spacing: normal; border-bottom: 5px solid #ccc; padding-bottom: 3px; display: inline-block; margin-top: 0; margin-bottom: 0; margin-left: 9px;}
+#slide6 h5      { font-size: 1.6em; text-align: left; letter-spacing: normal; border-bottom: 5px solid #ccc; padding-bottom: 3px; display: inline-block; margin-left: 9px;}
 #slide6 p 		{ font-size: 1.2em; line-height:180%; text-align: left; padding-left: 10px; margin: 15px 0;}
 
 #slide6 .access_name     { text-align: left; display: inline-block; background-color: #fff; padding: 0 0 3px; border-bottom: 3px solid #ddd; border-radius: 0;}
