@@ -587,7 +587,7 @@ h4 { font-size:1.6em; letter-spacing:0.2em;}
 h5 {}
 h6 {}
 
-.font-gf				{ font-family:Arial, serif; }
+.font-gf				{ font-family: 'Raleway Dots', cursive; color: #545454; }
 .txt-center 			{ text-align:center; }
 .txt-right	 			{ text-align: right; }
 .caption				{ font-size:0.8em; color:#666; font-family:'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;}
@@ -641,18 +641,20 @@ h6 {}
 .navfix 	{ display:none;}
 .fixed 		{
 	position: fixed;
+  color: #fff;
 	top: 0;
 	left: 0;
 	width: 100%;
 	display:block;
-	background-color: #ccc;
+	background-color: #09C1E7;
 	z-index:100;
 	text-align:center;
 	border-bottom: 1px #545454 solid;
+  font-family:'Raleway Dots', cursive;
 }
 
 .fixed p		{ font-size:1em;  margin:0; color: #000; padding-top:10px;}
-.navigation2 	{ list-style: none; padding:10px 0 10px 0; }
+.navigation2 	{ list-style: none; padding:10px 0 10px 0; color: #fff;}
 .navigation2 li	{ display: inline; margin: 0 10px; color: #000; font-size:1.4em; letter-spacing:0.2em; }
 .navigation2 a:link		{ cursor:pointer; color: #000; }
 .navigation2 a:visited	{ cursor:pointer; color: #000; }
